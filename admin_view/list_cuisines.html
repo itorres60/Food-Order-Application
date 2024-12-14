@@ -5,10 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuisines</title>
+    <style>
+      #navItems {
+        padding: 10px;
+      }
+    </style>
   </head>
+
+  <header>
+    <nav>
+      <a id="navItems" href="add_category.html">Add Category</a>
+      <a id="navItems" href="add_cuisine.html">Add Cuisine</a>
+      <a id="navItems" href="add_fooditem.html">Add Food Item</a>
+      <a id="navItems" href="add_restaurant.html">Add Restaurant</a>
+      <a id="navItems" href="admin_page.html">Home</a>
+      <a id="navItems" href="list_categories.html">List Categories</a>
+      <a id="navItems" href="list_cuisines.html">List Cuisines</a>
+      <a id="navItems" href="list_fooditems.html">List Food Items</a>
+      <a id="navItems" href="list_restaurants.html">List Restaurants</a>
+    </nav>
+  </header>
   
   <body>
-    
+    <h1 style="text-align: center;">All Cuisines</h1>
+    <hr>
+
+    <table style="margin: auto;">
+      <!-- A row for the column headings-->
+      <tr>
+        <th>Cuisine No.</th>
+        <th>Cuisine Name</th>
+        <th>Description</th>
+        <th>Active?</th>
+        <th>Image</th>
+        <th>Edit</th>
+      </tr>
+      <!--A Row for the first entry-->
+      <tr>
+        <td>1</td>
+        <td>Italian</td>
+        <td>All italian food</td>
+        <td>Yes</td>
+        <td>
+          <img src="../images/italian.jpeg" alt="a bowl of italian pasta" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+      <!--A Row for the second entry-->
+      <tr>
+        <td>2</td>
+        <td>Asian</td>
+        <td>All asian food</td>
+        <td>Yes</td>
+        <td>
+          <img src="../images/asian.jpeg" alt="a bowl of indian food" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+      <!--A Row for the third entry-->
+      <tr>
+        <td>3</td>
+        <td>Chinese</td>
+        <td>All chinese food</td>
+        <td>Yes</td>
+        <td>
+          <img src="../images/chinese.jpeg" alt="a bowl of chinese soup" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+    </table>    
   </body>
 
 </html>

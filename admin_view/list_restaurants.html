@@ -5,9 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurants</title>
+    
+    <style>
+      th, td {
+        padding: 10px;
+      }
+      #navItems {
+        padding: 10px;
+      }
+    </style>
   </head>
+
+  <header>
+    <nav>
+      <a id="navItems" href="add_category.html">Add Category</a>
+      <a id="navItems" href="add_cuisine.html">Add Cuisine</a>
+      <a id="navItems" href="add_fooditem.html">Add Food Item</a>
+      <a id="navItems" href="add_restaurant.html">Add Restaurant</a>
+      <a id="navItems" href="admin_page.html">Home</a>
+      <a id="navItems" href="list_categories.html">List Categories</a>
+      <a id="navItems" href="list_cuisines.html">List Cuisines</a>
+      <a id="navItems" href="list_fooditems.html">List Food Items</a>
+      <a id="navItems" href="list_restaurants.html">List Restaurants</a>
+    </nav>
+  </header>
   
   <body>
+    <h1 style="text-align: center;">All Restaurants</h1>
+    <hr>
+
+    <table style="margin: auto;">
+      <!-- A row for the column headings-->
+      <tr>
+        <th>Restaurant No.</th>
+        <th>Restaurant Name</th>
+        <th>Image</th>
+        <th>Address</th>
+        <th>Contact</th>
+        <th>Edit</th>
+      </tr>
+      <!--A Row for the first entry-->
+      <tr>
+        <td>1</td>
+        <td>Food Town</td>
+        <td>
+          <img src="../images/fancy_restaurant.jpeg" alt="a restaurant dining area" style="width: 100px;">
+        </td>
+        <td>Abbey Stree, Berkshire</td>
+        <td>2728</td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+      <!--A Row for the second entry-->
+      <tr>
+        <td>2</td>
+        <td>Green Leaf Hotel</td>
+        <td>
+          <img src="../images/hotel_restaurant.jpeg" alt="a rastauran setting" style="width: 100px;">
+        </td>
+        <td>Northwest street, Skyville</td>
+        <td>37484</td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+      <!--A Row for the third entry-->
+      <tr>
+        <td>3</td>
+        <td>Kingston Hotel</td>
+        <td>
+          <img src="../images/kitchen_restaurant.jpeg" alt="a restaurant kitchen" style="width: 100px;">
+        </td>
+        <td>Dudley Road, Hillwood</td>
+        <td>7448</td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+    </table>   
     
   </body>
 

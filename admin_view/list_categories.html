@@ -5,9 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categories</title>
+    <style>
+      #navItems {
+        padding: 10px;
+      }
+    </style>
   </head>
+
+  <header>
+    <nav>
+      <a id="navItems" href="add_category.html">Add Category</a>
+      <a id="navItems" href="add_cuisine.html">Add Cuisine</a>
+      <a id="navItems" href="add_fooditem.html">Add Food Item</a>
+      <a id="navItems" href="add_restaurant.html">Add Restaurant</a>
+      <a id="navItems" href="admin_page.html">Home</a>
+      <a id="navItems" href="list_categories.html">List Categories</a>
+      <a id="navItems" href="list_cuisines.html">List Cuisines</a>
+      <a id="navItems" href="list_fooditems.html">List Food Items</a>
+      <a id="navItems" href="list_restaurants.html">List Restaurants</a>
+    </nav>
+  </header>
   
   <body>
+    <h1 style="text-align: center;">All Categories</h1>
+    <hr>
+
+    <table style="margin: auto;">
+      <!-- A row for the column headings-->
+      <tr>
+        <th>Category No.</th>
+        <th>Category Name</th>
+        <th>Description</th>
+        <th>Active?</th>
+        <th>Image</th>
+        <th>Edit</th>
+      </tr>
+      <!--A Row for the first entry-->
+      <tr>
+        <td>1</td>
+        <td>Pasta</td>
+        <td>All types of pasta</td>
+        <td>Yes</td>
+        <td>
+          <img src="../images/pasta.jpeg" alt="different types of dried pastas" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+      <!--A Row for the second entry-->
+      <tr>
+        <td>2</td>
+        <td>Pizza</td>
+        <td>All types of pizza</td>
+        <td>Yes</td>
+        <td>
+          <img src="../images/pizza.jpeg" alt="a pizza pie" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+      <!--A Row for the third entry-->
+      <tr>
+        <td>3</td>
+        <td>Sandwiches</td>
+        <td>All types of sandwiches</td>
+        <td>Yes</td>
+        <td>
+          <img src="../images/sandwich.jpeg" alt="sandwich on a plate" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+      <!--A Row for the fourth entry-->
+      <tr>
+        <td>4</td>
+        <td>Soups</td>
+        <td>All types of soups</td>
+        <td>Yes</td>
+        <td>
+          <img src="../images/soups.jpeg" alt="a bowl of tomato soup" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+    </table> 
+
     
   </body>
 

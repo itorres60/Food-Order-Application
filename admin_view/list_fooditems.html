@@ -5,10 +5,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Items</title>
+    <style>
+      #navItems {
+        padding: 10px;
+      }
+    </style>
   </head>
+
+  <header>
+    <nav>
+      <a id="navItems" href="add_category.html">Add Category</a>
+      <a id="navItems" href="add_cuisine.html">Add Cuisine</a>
+      <a id="navItems" href="add_fooditem.html">Add Food Item</a>
+      <a id="navItems" href="add_restaurant.html">Add Restaurant</a>
+      <a id="navItems" href="admin_page.html">Home</a>
+      <a id="navItems" href="list_categories.html">List Categories</a>
+      <a id="navItems" href="list_cuisines.html">List Cuisines</a>
+      <a id="navItems" href="list_fooditems.html">List Food Items</a>
+      <a id="navItems" href="list_restaurants.html">List Restaurants</a>
+    </nav>
+  </header>
   
   <body>
-    
+    <h1 style="text-align: center;">All Categories</h1>
+    <hr>
+
+    <table style="margin: auto;">
+      <!-- A row for the column headings-->
+      <tr>
+        <th>Food Iten No.</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Available?</th>
+        <th>Vegitarian?</th>
+        <th>Category</th>
+        <th>Cuisine</th>
+        <th>Image</th>
+        <th>Edit</th>
+      </tr>
+      <!--A Row for the first entry-->
+      <tr>
+        <td>1</td>
+        <td>Veg Pizza</td>
+        <td>Veggies include onion, tomato, capsicum etc</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Pizza</td>
+        <td>Italian</td>
+        <td>
+          <img src="../images/pizza.jpeg" alt="A slice of pizza held above a pizza pie" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+      <!--A Row for the second entry-->
+      <tr>
+        <td>2</td>
+        <td>Hot & Sour Soup</td>
+        <td>Made with mushroom, tofu, spring onions, & chicken</td>
+        <td>Yes</td>
+        <td>No</td>
+        <td>Soup</td>
+        <td>Chinese</td>
+        <td>
+          <img src="../images/soups.jpeg" alt="a bowl of tomatoe soup" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+      <!--A Row for the third entry-->
+      <tr>
+        <td>3</td>
+        <td>Lasagna Sandwich</td>
+        <td>Bacon, sour cream, mozzarella cheese and white bread</td>
+        <td>Yes</td>
+        <td>No</td>
+        <td>Sandwich</td>
+        <td>Italian</td>
+        <td>
+          <img src="../images/sandwich.jpeg" alt="a sandiwch" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+      <!--A Row for the fourth entry-->
+      <tr>
+        <td>4</td>
+        <td>Chick-Fil-A-Sandwich</td>
+        <td>Chicken pattice, Egg, Milk & Burger bun</td>
+        <td>Yes</td>
+        <td>No</td>
+        <td>Sandwich</td>
+        <td>Asian</td>
+        <td>
+          <img src="../images/sandwich.jpeg" alt="a sandwich" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+      <!--A Row for the fifth entry-->
+      <tr>
+        <td>5</td>
+        <td>Grilled Mac & Cheese</td>
+        <td>Cheddar cheese, jack cheese, heavy cream & white bread</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Sandwich</td>
+        <td>Asian</td>
+        <td>
+          <img src="../images/sandwich.jpeg" alt="a sandwich" style="width: 100px;">
+        </td>
+        <td>
+          <button>edit</button>
+        </td>
+      </tr>
+    </table> 
   </body>
 
 </html>
