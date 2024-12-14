@@ -26,25 +26,55 @@
     </nav>
   </header>
 
-  <body style="width: 100%; text-align: center;">
-    <h1>Add Cuisine</h1>
-    <hr>
-
-    <form action="">
-      <label for="cuisine-name">Cuisine Name: </label>
-      <input type="text" id="cuisine-name" name="cuisine-name"><br>
-  
-      <label for="cuisine-description">Cuisine Description: </label>
-      <textarea id="cuisine-description" name="cuisine-description" rows="4" cols="20"></textarea><br>
-
-      <label for="url">Image URL:</label>
-      <input type="text" name="url" id="url"><br>
-
-      <label for="is-active">Is Active </label>
-      <input type="checkbox" name="is-active" id="is-active"><br>
-
-      <input type="reset">
-      <button>Save</button>
+  <body>
+    <form>
+      <table style="margin: auto;">
+        <tr>
+          <th colspan="2">
+            <h1>Add Cuisine</h1>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <label for="cuisine-name">Cuisine Name: </label>
+          </td>
+          <td>
+            <input type="text" id="cuisine-name" name="cuisine-name">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="cuisine-description">Cuisine Description: </label>
+          </td>
+          <td>
+            <textarea id="cuisine-description" name="cuisine-description" rows="4" cols="20"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="url">Image URL:</label>
+          </td>
+          <td>
+            <input type="text" name="url" id="url">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="is-active">Is Active </label>
+          </td>
+          <td>
+            <input type="checkbox" name="is-active" id="is-active">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="reset">
+          </td>
+          <td>
+            <button>Save</button>
+          </td>
+        </tr>
+      </table>
     </form>    
   </body>
 
