@@ -1,0 +1,46 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 20px;
+}
+
+nav a {
+  padding: 10px
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+  color: dodgerblue;
+}
+
+table {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.desc {
+  width: 100px;
+  padding: 20px;
+  text-align: center;
+}
