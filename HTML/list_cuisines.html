@@ -4,8 +4,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurants</title>
-    <link rel="stylesheet" href="list_styles.css">
+    <title>Cuisines</title>
+    <link rel="stylesheet" href="../CSS/list_styles.css">
   </head>
 
   <header>
@@ -14,7 +14,7 @@
       <a href="add_cuisine.html">Add Cuisine</a>
       <a href="add_fooditem.html">Add Food Item</a>
       <a href="add_restaurant.html">Add Restaurant</a>
-      <a href="index.html">Home</a>
+      <a href="../index.html">Home</a>
       <a href="list_categories.html">List Categories</a>
       <a href="list_cuisines.html">List Cuisines</a>
       <a href="list_fooditems.html">List Food Items</a>
@@ -23,27 +23,27 @@
   </header>
   
   <body>
-    <h1>All Restaurants</h1>
+    <h1>All Cuisines</h1>
 
     <table>
       <!-- A row for the column headings-->
       <tr>
-        <th>Restaurant No.</th>
-        <th>Restaurant Name</th>
+        <th>Cuisine No.</th>
+        <th>Cuisine Name</th>
+        <th>Description</th>
+        <th>Active?</th>
         <th>Image</th>
-        <th>Address</th>
-        <th>Contact</th>
         <th>Edit</th>
       </tr>
       <!--A Row for the first entry-->
       <tr>
         <td>1</td>
-        <td>Food Town</td>
+        <td>Italian</td>
+        <td>All italian food</td>
+        <td>Yes</td>
         <td>
-          <img src="../images/fancy_restaurant.jpeg" alt="a restaurant dining area" style="width: 100px;">
+          <img src="../images/italian.jpeg" alt="a bowl of italian pasta" style="width: 100px;">
         </td>
-        <td>Abbey Stree, Berkshire</td>
-        <td>2728</td>
         <td>
           <button>edit</button>
         </td>
@@ -51,12 +51,12 @@
       <!--A Row for the second entry-->
       <tr>
         <td>2</td>
-        <td>Green Leaf Hotel</td>
+        <td>Asian</td>
+        <td>All asian food</td>
+        <td>Yes</td>
         <td>
-          <img src="../images/hotel_restaurant.jpeg" alt="a rastauran setting" style="width: 100px;">
+          <img src="../images/asian.jpeg" alt="a bowl of indian food" style="width: 100px;">
         </td>
-        <td>Northwest street, Skyville</td>
-        <td>37484</td>
         <td>
           <button>edit</button>
         </td>
@@ -64,18 +64,17 @@
       <!--A Row for the third entry-->
       <tr>
         <td>3</td>
-        <td>Kingston Hotel</td>
+        <td>Chinese</td>
+        <td>All chinese food</td>
+        <td>Yes</td>
         <td>
-          <img src="../images/kitchen_restaurant.jpeg" alt="a restaurant kitchen" style="width: 100px;">
+          <img src="../images/chinese.jpeg" alt="a bowl of chinese soup" style="width: 100px;">
         </td>
-        <td>Dudley Road, Hillwood</td>
-        <td>7448</td>
         <td>
           <button>edit</button>
         </td>
       </tr>
-    </table>   
-    
+    </table>    
   </body>
 
 </html>
